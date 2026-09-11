@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+logs/
+
+# Market data is never committed. Chains come from a separate recorder, the
+# SPX series is built from licensed Databento data, and Robinhood pulls are
+# personal account data.
+data/chains/
+data/*.csv
+data/*.sqlite
+data/*.jsonl
+raw/

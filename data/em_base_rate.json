@@ -1,0 +1,42 @@
+{
+  "source": "VIX + SPY closes, 2006-07-25..2026-07-22",
+  "generated": "2026-09-11",
+  "threshold_em": 1.0,
+  "n": 5029,
+  "overall_p_compress": 0.807914,
+  "iv_edges": [
+    0.1394,
+    0.1729,
+    0.2256
+  ],
+  "buckets": [
+    {
+      "iv_from": null,
+      "iv_to": 0.1394,
+      "n": 1262,
+      "p_compress": 0.873217,
+      "se": 0.009366
+    },
+    {
+      "iv_from": 0.1394,
+      "iv_to": 0.1729,
+      "n": 1255,
+      "p_compress": 0.826295,
+      "se": 0.010694
+    },
+    {
+      "iv_from": 0.1729,
+      "iv_to": 0.2256,
+      "n": 1256,
+      "p_compress": 0.785032,
+      "se": 0.011591
+    },
+    {
+      "iv_from": 0.2256,
+      "iv_to": null,
+      "n": 1256,
+      "p_compress": 0.746815,
+      "se": 0.01227
+    }
+  ]
+}
